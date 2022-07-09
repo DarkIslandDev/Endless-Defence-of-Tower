@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1cd3e85bfda4f8f8613f265133a247d, type: 3}
+  m_Name: New Building
+  m_EditorClassIdentifier: 
+  Name: 41241
+  Icon: {fileID: 21300000, guid: 20ae35121f9a014428ea30cea4351712, type: 3}
+  structure: {fileID: 6198660435493418005, guid: 7ab04d55a9877f14880512bb1c55ad90,
+    type: 3}
+  Cost: 20
+  structureLevel: 1
+  maxStructureLevel: 5
+  upgradedPrefabs:
+  - {fileID: 6198660435493418005, guid: 7ab04d55a9877f14880512bb1c55ad90, type: 3}
+  - {fileID: 6198660435493418005, guid: 7ab04d55a9877f14880512bb1c55ad90, type: 3}
+  - {fileID: 6198660435493418005, guid: 7ab04d55a9877f14880512bb1c55ad90, type: 3}
+  upgradeCost: 20
